@@ -7,3 +7,5 @@ Selective degradation of proteins is essential for the proper functioning of the
 3. Run edited sequences through customized microProtein Prediction Program (miP3) to obtain a fasta file of all decoys. The microProtein Prediction Program (miP3) is free software (Copyright (c) 2014 - Niek de Klein, Enrico Magnani, Seung Y. Rhee) that has been edited for use in this workflow.
 4. Use evals script to obtain a matrix of evals for each decoy vs. target protein
 5. Generate heatmap using make_heatmap.R
+## Results
+The results from this workflow can be visualized in the RShiny app [here](http://etcorcoran.shinyapps.io/webpage_heatmap).
